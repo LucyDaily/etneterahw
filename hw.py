@@ -30,7 +30,7 @@ def call_langflow(user_text: str) -> str:
     url = f"{LANGFLOW_HOST}/api/v1/run/{FLOW_ID}"
     headers = {
         "Content-Type": "application/json",
-        "x-api-key": LANGFLOW_API_KEY,
+        "x-api-key": sk-JSwZjYWPk5it5DWmBox8nO0r30RdiDync2667ZafoVg,
         "accept": "application/json",
     }
     payload = {
