@@ -2,9 +2,12 @@ import streamlit as st
 import requests
 import uuid
 
-LANGFLOW_HOST = st.secrets["https://nonpropitiable-jolene-untriumphantly.ngrok-free.dev/"]
-FLOW_ID = st.secrets["c778533b-9fe8-4337-b11e-f9a65e29c099"]
-API_KEY = st.secrets["sk-JSwZjYWPk5it5DWmBox8nO0r30RdiDync2667ZafoVg"]
+import streamlit as st
+
+LANGFLOW_HOST = st.secrets["LANGFLOW_HOST"].rstrip("/")
+FLOW_ID = st.secrets["LANGFLOW_FLOW_ID"]
+LANGFLOW_API_KEY = st.secrets["LANGFLOW_API_KEY"]
+
 
 st.set_page_config(page_title="PM Advisor Bot")
 st.title("PM Methodology Advisor")
