@@ -3,7 +3,7 @@ import requests
 import uuid
 
 # --- KONFIGURACE ---
-API_KEY = "YOUR_API_KEY_HERE"  # Doporučuji použít st.secrets pro produkci
+API_KEY = "sk-A63meCy_w2moZ6wnq7uBDmUM-UD7rvBU0R_R_pRjU-8" 
 API_URL = "https://langflow-production-dcd6.up.railway.app/api/v1/run/b455aef5-a951-44cf-9f48-dabbe70b4225"
 
 st.set_page_config(page_title="Senior AI Project Coordinator", page_icon="📊")
